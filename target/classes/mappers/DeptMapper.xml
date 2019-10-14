@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.study.mapper.DeptMapper">
+    <resultMap id="DeptVOMap" type="com.study.entity.DeptVO">
+        <id column="id" property="id"></id>
+        <result column="dept_name" property="deptName"></result>
+        <result column="info" property="info"></result>
+        <collection property="users" ofType="com.study.entity.User">
+            <id column="id" property="id"></id>
+            <result column="username" property="username"></result>
+            <result column="password" property="password"></result>
+            <result column="phone" property="phone"></result>
+            <result column="email" property="email"></result>
+            <result column="level" property="level"></result>
+            <result column="is_delete" property="isDelete"></result>
+            <result column="dept_id" property="deptId"></result>
+        </collection>
+    </resultMap>
+
+    <select id="findVOById" resultMap="DeptVOMap">
+        SELECT
+			d.id AS did,
+			d.dept_name,
+			d.info,
+			u.id AS uid,
+			username,
+			password,
+			phone,
+			email,
+			level,
+			is_delete,
+			dept_id
+		FROM
+			t_dept d
+		LEFT JOIN
+			t_user u
+		ON
+			d.id=u.dept_id
+		WHERE
+			d.id=#{id}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+
+    <!--配置接口文件-->
+    <util:properties id="dbConfig" location="classpath*:jdbc.properties"></util:properties>
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="#{dbConfig.jdbcUrl}"></property>
+        <property name="driverClassName" value="#{dbConfig.driverClassName}"></property>
+        <property name="username" value="#{dbConfig.username}"></property>
+        <property name="password" value="#{dbConfig.password}"></property>
+        <property name="initialSize" value="#{dbConfig.initialSize}"></property>
+        <property name="minIdle" value="#{dbConfig.minIdle}"></property>
+        <property name="maxActive" value="#{dbConfig.maxActive}"></property>
+    </bean>
+
+    <!--配置接口文件-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.study.mapper"></property>
+    </bean>
+
+    <!--关联数据源与接口文件-->
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="mapperLocations" value="classpath*:mappers/*.xml"></property>
+    </bean>
+
+
+</beans>

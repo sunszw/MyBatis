@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.study.mapper.UserMapper">
+    <resultMap id="UserMap" type="com.study.entity.User">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="email" property="email"></result>
+        <result column="phone" property="phone"></result>
+        <result column="level" property="level"></result>
+        <result column="is_delete" property="isDelete"></result>
+        <result column="dept_id" property="deptId"></result>
+    </resultMap>
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+		insert into t_user(
+			username,password,email,phone,level,is_delete
+		) values(
+			#{username},#{password},#{email},#{phone},#{level},#{isDelete})
+	</insert>
+
+    <delete id="deleteUserByIds">
+        delete from t_user where id in(
+        <foreach collection="list" item="ids" separator=",">
+            #{ids}
+        </foreach>
+        )
+    </delete>
+
+    <update id="updatePasswordById">
+		update t_user set password=#{password} where id=#{id}
+	</update>
+
+    <select id="showUsers" resultMap="UserMap">
+        select * from t_user
+        <if test="where!=null">
+            where ${where}
+        </if>
+        <if test="orderBy !=null">
+            order by ${orderBy}
+        </if>
+        <if test="offset">
+            limit #{offset},#{count}
+        </if>
+    </select>
+
+    <select id="findUserVOById" resultType="com.study.entity.UserVO">
+        SELECT
+			u.id AS uid,
+			username, password,
+		    phone,
+			email,
+			level,
+			is_delete AS isDelete,
+			dept_id AS deptId,
+			dept_name AS deptName
+		FROM
+			t_user u
+		LEFT JOIN
+			t_dept d
+		ON
+			u.dept_id=d.id
+		WHERE
+			u.id=#{id}
+	</select>
+
+
+</mapper>

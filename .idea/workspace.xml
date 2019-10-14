@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8669445b-a11c-4318-b41a-b9bdfe689a26" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1S6GqJbYb0Zp3AJczorfxX1ncDl" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\43979\IdeaProjects\MyBatis\src\main\resources\mappers" />
+      <recent name="C:\Users\43979\IdeaProjects\MyBatis\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\43979\IdeaProjects\MyBatis\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MapperTest.testFindVOById">
+    <configuration name="MapperTest.testDeleteUserByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.study.mapper.MapperTest" />
+      <option name="METHOD_NAME" value="testDeleteUserByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testFindUserVOById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.study.mapper.MapperTest" />
+      <option name="METHOD_NAME" value="testFindUserVOById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testFindVOById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.study.mapper.MapperTest" />
+      <option name="METHOD_NAME" value="testFindVOById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testShowUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.study.mapper.MapperTest" />
+      <option name="METHOD_NAME" value="testShowUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testUpdatePasswordById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.study.mapper.MapperTest" />
+      <option name="METHOD_NAME" value="testUpdatePasswordById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MapperTest.testFindVOById" />
+        <item itemvalue="JUnit.MapperTest.testFindUserVOById" />
+        <item itemvalue="JUnit.MapperTest.testShowUsers" />
+        <item itemvalue="JUnit.MapperTest.testUpdatePasswordById" />
+        <item itemvalue="JUnit.MapperTest.testDeleteUserByIds" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.16181229" />
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8669445b-a11c-4318-b41a-b9bdfe689a26" name="Default Changelist" comment="" />
+      <created>1570876820654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570876820654</updated>
+      <workItem from="1570876823753" duration="9441000" />
+      <workItem from="1571054241329" duration="9033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="772" y="270" key="#Auto_Import" timestamp="1571058091382">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="772" y="270" key="#Auto_Import/0.0.2560.1400@0.0.2560.1400" timestamp="1571058091382" />
+    <state x="485" y="331" width="1114" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1571057570893">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="485" y="331" width="1114" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1571057570893" />
+    <state x="779" y="302" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1570881484378">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="779" y="302" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1570881484378" />
+    <state x="999" y="303" key="#com.intellij.ide.util.MemberChooser" timestamp="1571061160938">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="999" y="303" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1571061160938" />
+    <state x="944" y="376" key="FileChooserDialogImpl" timestamp="1571063544397">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="944" y="376" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1571063544397" />
+    <state width="2509" height="389" key="GridCell.Tab.0.bottom" timestamp="1571063514690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2509" height="389" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1571063514690" />
+    <state width="2509" height="389" key="GridCell.Tab.0.center" timestamp="1571063514690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2509" height="389" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1571063514690" />
+    <state width="2509" height="389" key="GridCell.Tab.0.left" timestamp="1571063514690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2509" height="389" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1571063514690" />
+    <state width="2509" height="389" key="GridCell.Tab.0.right" timestamp="1571063514690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2509" height="389" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1571063514690" />
+    <state x="760" y="378" key="IDE.errors.dialog" timestamp="1570877442415">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="760" y="378" key="IDE.errors.dialog/0.0.2560.1400@0.0.2560.1400" timestamp="1570877442415" />
+    <state x="468" y="223" key="Maven.ArtifactSearchDialog" timestamp="1570890840497">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="468" y="223" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1570890840497" />
+    <state x="687" y="253" key="SettingsEditor" timestamp="1570881432240">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="687" y="253" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1570881432240" />
+    <state x="814" y="476" key="com.intellij.ide.util.TipDialog" timestamp="1571063393877">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="814" y="476" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1571063393877" />
+  </component>
+</project>
